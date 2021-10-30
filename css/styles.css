@@ -1,0 +1,141 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+div {
+  display: block;
+}
+
+ul {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/***************************CLASS SELECTORS**********************************/
+
+#title {
+  background-color: #66bfbf;
+  color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 0 0 0 4.5rem;
+  /* color: white; */
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  /* color: #fff; */
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  /* color: #fff; */
+}
+
+/* Projects Section */
+#projects {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 1% 25%;
+}
+/* .carousel-item a {
+  align-content: center;
+} */
+
+/* Resume Section */
+#resume {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* Skills */
+#skills {
+  background-color: #66bfbf;
+  color: #fff;
+}
+
+/* Courses setion */
+.course-container {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  padding: 1% 5%;
+  display: inline-block;
+  justify-content: center;
+}
+
+.service-item div {
+  text-align: center;
+}
+
+.service-item div ul {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Footer */
+.bottom-cont {
+  /* background-color: crimson; */
+  /* border-width: 20px; */
+  /* border-style: solid; */
+  /* margin-left: 260px;
+    position: relative;
+    left: 75px; */
+  /* display: inline-block; */
+  background-color: #66bfbf;
+  padding: 50px 0 20px 0;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 2rem;
+  padding: 20px 0 20px 0;
+}
+
+/* Examples */
+
+/* pre {
+  font-family: Consolas, "courier new";
+  color: crimson;
+  background-color: black;
+  padding: 2px;
+  font-size: 105%;
+} */
